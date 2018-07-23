@@ -1,0 +1,52 @@
+<style>
+
+body{
+   text-align: center;
+   background-color: #fffdd0;
+}
+
+h2{
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+.input{
+  align-content: center;
+  border: 10px;
+  box-shadow: 5px 5px #000000;
+}
+.content{margin-top: 30px;
+text-align: center;
+}
+.container{
+  height: 450px;
+  box-shadow: 0px 0px 10px 10px #f8f9f9;
+  margin-top: 40px;
+  background-color: #ffffff;
+}
+.button{
+  align-content: center;
+  border: 80px;
+}
+.status{
+  margin-left: 850px;
+  padding-top: 10px;
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 12px;
+}
+#insert{
+  border-bottom-style: ridge;
+  font-weight: bold;
+}
+#BTC{
+  box-shadow: 2px 2px 2px 2px #000000;
+}
+#INR{
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+body{
+  background-image: url(11.jpg);
+}
+
+</style>
