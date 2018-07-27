@@ -1,0 +1,30 @@
+::::::::::::::
+
+RESTful ROUTING
+...............
+There are 7 RESTful ROUTERS.:
+----------------------------------------------------------------------
+Name 		path 		Http verb 	purpose
+----------------------------------------------------------------------
+Index		/blogs		GET		List all blogs
+New		/blogs/new	GET		show new page
+Create		/blogs		POST		create new blog
+show		/blogs/:id	POST		show info
+Edit		/blogs/:id/edit	GET		show edit info
+update		/blogs/:id	PUT		update info
+destroy		/blogs/:id	DELETE		delete 
+-----------------------------------------------------------------------
+
+::::::::::::::::::
+requirements
+............
+Express
+ejs
+Body-parser
+mongoos
+method-override
+:::::::::::::::::::
+
+expree sanitiser is used to remoove the codes automatically.otherwise there will arise some alerts like u have been hacked etc.
+
+

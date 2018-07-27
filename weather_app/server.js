@@ -1,8 +1,8 @@
 const express = require('express');
 const request = require('request');
 const bodyParser =require('body-parser');
-let app =express();
-
+let app = express();
+const PORT = process.env.PORT;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -32,7 +32,7 @@ app.post('/',function(req,res){
     });
 })
 
-app.listen(3000,function(err){
+app.listen(PORT,function(err){
   if (err){
     console.log(err);
   }else{

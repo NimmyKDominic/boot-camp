@@ -1,0 +1,10 @@
+RESTful ROUTING
+...............
+There are 7 RESTful ROUTERS.:
+----------------------------------------------------------------------
+Name 		path 		Http verb 	purpose
+----------------------------------------------------------------------
+Index		/blogs		GET		List all blogs
+New		/blogs/new	GET		show new page
+Create		/blogs		POST		create new blog
+
